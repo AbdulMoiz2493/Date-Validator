@@ -1,0 +1,31 @@
+﻿Category,Test Case
+Valid Cases,
+Leap Year,29/02/2020
+Leap Year,29/02/2024
+30-day Month,30/04/2023
+30-day Month,30/06/2022
+31-day Month,31/07/2023
+31-day Month,31/12/2021
+Standard Date,15/08/2025
+Standard Date,10/10/2010
+Early Year,05/03/0001
+Future Year,12/09/9998
+,
+Invalid Cases,
+Day > 31,32/01/2023
+Month > 12,15/13/2023
+Non-Leap Feb 29,29/02/2021
+Invalid Month-Day Pair,31/04/2022
+Invalid Month-Day Pair,31/06/2023
+Invalid Month-Day Pair,31/09/2023
+Negative Year,10/10/-0023
+Day 0,00/05/2023
+Month 0,15/00/2023
+Year Overflow,25/12/10000
+,
+Boundary Cases,
+Minimum Year,01/01/0000
+Maximum Year,31/12/9999
+Year Transition,31/12/1999 → 01/01/2000
+Month Transition,30/06/2025 → 01/07/2025
+Day Transition,28/02/2024 → 29/02/2024
